@@ -1,0 +1,72 @@
+body {
+    background-image: url("notestack.jpg");
+    background-size: 1540px 800px;
+    font-family: 'Handlee', cursive;
+    color: blanchedalmond;
+}
+
+h1 {
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    color: bisque;
+    font-size: 70px;
+}
+
+#taskForm {
+    margin-bottom: 10px;
+}
+
+#taskInput,
+#descriptionInput {
+    margin-left: 350px;
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+#addButton {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 350px;
+}
+
+#taskList {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.task .task-header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.task .task-header .deleteButton {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task .task-description {
+    margin-top: 10px;
+}
